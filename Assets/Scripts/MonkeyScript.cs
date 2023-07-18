@@ -26,21 +26,9 @@ public class MonkeyScript : MonoBehaviour
 
     private Vector3 CalculateMouseDir()
     {
-        Vector3 BananaDir = (_banana.position - transform.position);
-        return BananaDir;
+        Vector3 bananaDir = (_banana.position - transform.position);
+        return bananaDir;
     }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
